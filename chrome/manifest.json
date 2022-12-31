@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Go려대",
+  "version": "0.1.1",
+  "description": "고대생들을 위한 고려대학교 사이트 모음",
+  "icons": {
+    "16": "./assets/logo.png",
+    "48": "./assets/logo.png",
+    "128": "./assets/logo.png"
+  },
+  "browser_action": {
+    "default_popup": "./popup/index.html",
+    "default_icon": {
+      "16": "./assets/logo.png"
+    }
+  },
+  "permissions": []
+}
